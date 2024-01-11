@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border-Radius</title>
+    <style>
+      #box {
+        width: 350px;
+        height: 250px;
+        box-sizing: border-box;
+        border: 2px solid black;
+        padding: 10px;
+        /* border-radius: 30px; */
+        border-radius: 20px 20px 30px 30px;
+        -webkit-border-radius: 20px 20px 30px 30px; /*prefix for chrome and safari*/
+        -moz-border-radius: 20px 20px 30px 30px; /* prefix for firefox mozila */
+      }
+      #box2 {
+        width: 225px;
+        height: 250px;
+        border: 2px solid red;
+        border-radius: 50%;
+        background-color: rgb(226, 27, 160);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is Border Radius Example practice code</h1>
+    <!-- Border Radius Propreties
+    border-top-left-radius 
+    border-top-right-radius 
+    border-bottom-right-radius 
+    border-bottom-left-radius 
+        shorthand - border-radius:20px 30px 50px 10px;
+-->
+
+    <div id="box">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro facere,
+      nulla illo deserunt laboriosam nostrum explicabo officia. Deserunt ex ad
+      officiis fugiat odio at laboriosam, fuga quaerat, corporis quod natus.
+    </div>
+    <div id="box2"></div>
+  </body>
+</html>
